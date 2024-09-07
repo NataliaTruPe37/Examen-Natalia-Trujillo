@@ -1,0 +1,100 @@
+body {
+    font-family: 'League Spartan', sans-serif; 
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1440px;
+}
+  
+  .title {
+    color: #502050;
+    font-size: 75px;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 100px;
+  }
+  .normaltext{
+    font-size: 15px;
+    color: white;
+  }
+  .buyer{
+    font-size: 15px;
+    color: #ee68a4;
+    margin-top: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color:rgb(200, 193, 193);
+    line-height: 1.5;
+    margin-top: 0;
+    display:flex;
+    text-align: center;
+  }
+
+  .boxformat {
+    width: 200px;
+    height: 200px;
+    border: 15px;
+    padding: 10px 50px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: space-around;
+    background-color:#502050;
+    border-radius: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+  }
+
+
+.imagen{
+  border-radius: 50%; 
+    object-fit: cover;
+    width: 50px; 
+    height: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: list-item;
+  float:right;
+}
+
+.rb {
+  width: 380px;
+  padding: 20px;
+  background-color: #EDE9F8; 
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.stars {
+  font-size: 20px;
+  color: #EDB93E; 
+}
+
+.text {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #502050;
+  text-align: left;
+}
+.main-content{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+}
+  
